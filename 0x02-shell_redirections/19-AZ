@@ -1,2 +1,2 @@
 #!/bin/bash
-echo | tr -c ['A' 'c'] ['Z' 'e']
+tr OPTION... 'Ac' 'Ze'
