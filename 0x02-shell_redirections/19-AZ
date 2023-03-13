@@ -1,2 +1,2 @@
 #!/bin/bash
-tr OPTION... 'Ac' 'Ze'
+echo | tr 'Ac' 'Ze'
