@@ -1,2 +1,2 @@
 #!/bin/bash
-"%s=%s\n", <BEST>, <"School">
+set ...BEST="School"
