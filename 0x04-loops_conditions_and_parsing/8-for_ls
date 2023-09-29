@@ -1,1 +1,9 @@
+#!/usr/bin/env bash
+# A Bash script that displays: content of the currnet dir
 
+list = $(ls)
+
+for b in $list;
+do
+    echo "$b" | cut -d '-' -f2
+done
