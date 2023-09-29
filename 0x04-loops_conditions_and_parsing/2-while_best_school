@@ -2,9 +2,8 @@
 # A Bash script that displays Best School 10 times
 
 b = 0
-
 while [ $b -lt 10 ]
 do
-        echo "Best School"
-        ((b++))
+    echo "Best School"
+    ((b++))
 done
