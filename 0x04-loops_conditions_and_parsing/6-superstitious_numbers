@@ -6,10 +6,10 @@ b=1
 while [ $b -le 20 ]
 do
     echo "$b"
-    case $b bn
-      4) echo "bad luck from China";;
-      9) echo "bad luck from Japan";;
-      17) echo "bad luck from Italy";;
+    case $b in
+        4) echo "bad luck from China";;
+        9) echo "bad luck from Japan";;
+        17) echo "bad luck from Italy";;
     esac
     ((b++))
 done
