@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 # A Bash (init) script 101-manage_my_process that manages manage_my_process
 
-FILE="/var/run/my_process.pid"
+b="/var/run/my_process.pid"
 
 create()
 {
-        sudo touch $FILE
-        sudo bash -c "echo $$ > $FILE"
+        sudo touch $b
+        sudo bash -c "echo $$ > $b"
 }
 
 if [ "$1" == "start" ]
